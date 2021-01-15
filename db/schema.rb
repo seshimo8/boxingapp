@@ -10,13 +10,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_01_15_062641) do
+ActiveRecord::Schema.define(version: 2021_01_15_082322) do
 
   create_table "boxes", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "name", null: false
     t.string "age", null: false
     t.string "height", null: false
-    t.string "class", null: false
+    t.string "rank", null: false
     t.string "battle_record", null: false
     t.string "boxing_gym", null: false
     t.datetime "created_at", precision: 6, null: false
